@@ -6,7 +6,14 @@ namespace Open_Lab_03._03
     {
         public bool CompareCharactersCount(string str1, string str2)
         {
-            throw new NotImplementedException();
+           if(str1.Length > str2.Length)
+           {
+            Console.WriteLine("String str1 is longer");
+           }
+           else
+           {
+            Console.WriteLine("String str2 is longer");
+           }
         }
     }
 }
